@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(180deg, #0d3178 0%, #070000 68%);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 16px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #f9f9f9;
+  box-shadow: 0 0 0 2px rgba(198, 198, 198, 0.3);
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-search {
+  background: #3c653e;
+  color: white;
+}
+
+.btn-search:hover {
+  background: #043e07;
+}
+
+.btn-clear {
+  background: #6b7280;
+  color: white;
+}
+
+.btn-clear:hover {
+  background: #710c05;
+}
+
+
+.card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(196, 195, 195, 0.5);
+  max-width: 600px;
+  width: 100%;
+  text-align: left;
+  color: #000000;
+  overflow-x: auto;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 20px;
+}
+
+.label {
+  color: #000000;
+  font-weight: bold;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.error-text {
+  color: #ef4444;
+  margin-bottom: 10px;
+}

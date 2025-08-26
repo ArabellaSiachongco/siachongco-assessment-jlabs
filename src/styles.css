@@ -1,0 +1,117 @@
+/* Styles for Login Component */
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.mt-20 {
+  margin-top: 5rem; /* 20 * 0.25rem */
+}
+.text-xl {
+  font-size: 1.25rem; /* 20px */
+}
+.mb-4 {
+  margin-bottom: 1rem; /* 16px */
+}
+.gap-2 {
+  gap: 0.5rem; /* 8px */
+}
+.border {
+  border-width: 1px;
+}
+.border-gray-300 {
+  border-color: #d1d5db; /* Tailwind gray-300 */
+}
+.rounded {
+  border-radius: 0.25rem; /* 4px */
+}
+.px-2 {
+  padding-left: 0.5rem; /* 8px */
+  padding-right: 0.5rem; /* 8px */
+}
+.py-1 {
+  padding-top: 0.25rem; /* 4px */
+  padding-bottom: 0.25rem; /* 4px */
+}
+.focus\:outline-none:focus {
+  outline: 0;
+}
+.focus\:ring-2:focus {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Tailwind blue-400 */
+}
+.bg-blue-500 {
+  background-color: #3b82f6; /* Tailwind blue-500 */
+}
+.text-white {
+  color: #ffffff;
+}
+.hover\:bg-blue-600:hover {
+  background-color: #2563eb; /* Tailwind blue-600 */
+}
+.transition {
+  transition: background-color 0.2s;
+}
+.text-red-500 {
+  color: #ef4444; /* Tailwind red-500 */
+}
+.mt-2 {
+  margin-top: 0.5rem; /* 8px */
+}
+
+/* Styles for Home Component */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.title {
+  font-size: 2rem; /* 32px */
+  margin-bottom: 1rem; /* 16px */
+}
+.input-group {
+  display: flex;
+  gap: 0.5rem; /* 8px */
+}
+.input {
+  border: 1px solid #d1d5db; /* Tailwind gray-300 */
+  border-radius: 0.25rem; /* 4px */
+  padding: 0.5rem; /* 8px */
+  flex: 1;
+}
+.btn {
+  padding: 0.5rem 1rem; /* 8px 16px */
+  border-radius: 0.25rem; /* 4px */
+  cursor: pointer;
+}
+.btn-search {
+  background-color: #3b82f6; /* Tailwind blue-500 */
+  color: white;
+}
+.btn-clear {
+  background-color: #ef4444; /* Tailwind red-500 */
+  color: white;
+}
+.card {
+  border: 1px solid #e5e7eb; /* Tailwind gray-200 */
+  border-radius: 0.25rem; /* 4px */
+  padding: 1rem; /* 16px */
+  margin-top: 1rem; /* 16px */
+}
+.card-title {
+  font-size: 1.5rem; /* 24px */
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem; /* 16px */
+}
+.label {
+  font-weight: bold;
+}
+.span-2 {
+  grid-column: span 2;
+}
